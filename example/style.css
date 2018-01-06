@@ -1,0 +1,18 @@
+body,html {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img, div.image, div.text {
+    width: 1920px;
+    height: 1080px;
+}
+
+div.text {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #4c4b4b;
+}

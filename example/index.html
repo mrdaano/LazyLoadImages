@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LazyLoadImage example</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+        <h2>It works with a img tag</h2>
+    </div>
+    <img src="#" class="js-lazyload-image" data-src="https://source.unsplash.com/WLUHO9A_xik/1920x1080" alt="A random image">
+    <div class="text">
+        <h2>Also with a div tag</h2>
+    </div>
+    <div class="image js-lazyload-image" data-src="https://source.unsplash.com/random/1920x1080"></div>
+    <script type="module">
+        import LazyLoadImage from './LazyLoadImage.js'
+
+        new LazyLoadImage({
+            rootMargin: '50px 0'
+        })
+    </script>
+</body>
+</html>

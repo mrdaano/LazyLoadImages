@@ -1,0 +1,26 @@
+{
+  "name": "lazyloadimages",
+  "version": "1.0.0",
+  "description": "A simple script for lazyloading images",
+  "main": "LazyLoadImage.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdaano/LazyLoadImages.git"
+  },
+  "author": "Daan Kloetstra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdaano/LazyLoadImages/issues"
+  },
+  "homepage": "https://github.com/mrdaano/LazyLoadImages#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
+  }
+}
