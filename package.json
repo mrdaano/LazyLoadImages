@@ -14,7 +14,7 @@
     "url": "git+https://github.com/mrdaano/LazyLoadImages.git"
   },
   "author": "Daan Kloetstra",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrdaano/LazyLoadImages/issues"
   },
