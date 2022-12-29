@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/mrdaano/LazyLoadImages#readme",
   "devDependencies": {
-    "webpack": "^3.10.0",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.1.11"
   }
 }
